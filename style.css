@@ -42,6 +42,9 @@ html {
   background-color: #f9f9f9;
    margin-top: clamp(30px, 10vh, 120px); 
 }
+header{
+  border:2px solid #f9f9f9;
+}
 #contact {
   background-color: #ffffff;
 }
