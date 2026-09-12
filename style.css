@@ -40,6 +40,8 @@ html {
 }
 #about {
   background-color: #f9f9f9;
+  font-size: clamp(16px, 4vw, 32px); 
+  padding: clamp(10px, 2vw, 20px);
 }
 #contact {
   background-color: #ffffff;
