@@ -43,7 +43,14 @@ html {
    margin-top: clamp(30px, 10vh, 120px); 
 }
 header{
-  border:2px solid #f9f9f9;
+      background: #0b1728;
+    border: 1px solid #1c3550;
+    border-radius: 18px;
+}
+nav {
+    background: #101f32;
+    border: 1px solid #24415f;
+    border-radius: 14px;
 }
 #contact {
   background-color: #ffffff;
