@@ -1,6 +1,6 @@
 body{
-    background: #000;
-    color: #fff;
+    background: #ffffff;
+    color: #1d1d1f;
 }
 html {
   scroll-behavior: smooth;
@@ -44,13 +44,13 @@ html {
    margin-top: clamp(30px, 10vh, 120px); 
 }
 header{
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 20px;
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius:18px;
 }
 nav {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: #f5f5f7;
+    border: 1px solid #e5e5e7;
     border-radius: 14px;
 }
 #contact {
