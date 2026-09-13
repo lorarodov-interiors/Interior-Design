@@ -66,7 +66,7 @@ html {
   position: sticky; 
   top: 100;
   z-index: 100;
-  margin-top: clamp(-20px, -5vw, -100px);
+  transform: translateY(clamp(-2000px, -5vw, -20px));
 }
 #about {
   background-color: #f9f9f9;
