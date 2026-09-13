@@ -66,7 +66,7 @@ html {
   position: sticky; 
   top: 0;
   z-index: 100;
-        margin-top: clamp(-100px, -8vw, -20px); 
+  padding: clamp(12px, 2vw, 20px);
 }
 #about {
   background-color: #f9f9f9;
