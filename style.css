@@ -14,13 +14,17 @@ body{
   width: 100%;
   height: clamp(400px, 70vh, 800px);
   background-image: url('./DSC07458-Edit.jpg'); 
-  background-size: contain                    
+  background-size: contain;                
   background-position: top center;
   background-repeat: no-repeat;                
   display: block;
   background-attachment: fixed
    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
   mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 html {
   scroll-behavior: smooth;
@@ -64,10 +68,10 @@ html {
   background-color: #ffffff;
   border-bottom: 1px solid #e5e5e5;
   position: sticky; 
-  top: 100;
   z-index: 100;
-  transform: translateY(clamp(-2000px, -5vw, -20px));
-  margin-top:342px;
+  top: 0;
+  left: 0;
+  position: absolute;
 }
 #about {
   background-color: #f9f9f9;
