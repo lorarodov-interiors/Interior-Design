@@ -67,6 +67,7 @@ html {
   top: 100;
   z-index: 100;
   transform: translateY(clamp(-2000px, -5vw, -20px));
+  margin-top:342px;
 }
 #about {
   background-color: #f9f9f9;
