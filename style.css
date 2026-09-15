@@ -17,6 +17,7 @@ body{
   z-index: -1; 
 }
 .pho::before{
+    content: "";
     width: 100vw;                  
     height: 100vh;                
     background-image: url('./DSC07458-Edit.jpg');
