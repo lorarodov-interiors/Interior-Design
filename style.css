@@ -13,7 +13,7 @@ body{
 .pho{
   width: 50%;
   background-image: url('./DSC07458-Edit.jpg'); 
-  background-size: 100% 400%;     
+  background-size: 100% 100%;     
   background-position: top center;
   background-repeat: no-repeat;  
   height: clamp(400px, 70vh, 3000px);
