@@ -58,7 +58,8 @@ html {
   top: 0;
   right: 0;
   z-index: 100;
-   background-color: #f9f9f9;
+   background-color: #FAFAFA;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 #about {
