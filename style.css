@@ -57,6 +57,7 @@ html {
   top: 0;
   right: 0;
   z-index: 100;
+   background-color: #f9f9f9;
 }
 
 #about {
