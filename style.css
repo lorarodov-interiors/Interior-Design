@@ -14,14 +14,13 @@ body{
     width: 100vw;                  
     height: 100vh;                
     background-image: url('./DSC07458-Edit.jpg');
-    background-size: cover;        
+    background-size: contain;        
     background-position: center top; 
     background-repeat: no-repeat;
     display: block;
     -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
     mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
-    position: fixed;                 
-    inset: 0;                     
+    position: fixed;                                     
     z-index: -1;      
     background-attachment: fixed;
 }                 
@@ -54,7 +53,7 @@ html {
   justify-content: space-between; 
   align-items: center;
   padding: 20px 40px;
-  position: absolute; 
+  position: sticky; 
   top: 0;
   right: 0;
   z-index: 100;
