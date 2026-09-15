@@ -11,6 +11,12 @@ body{
   display: block;
 }
 .pho{
+  position: fixed; 
+  top: 0;
+  right: 0;
+  z-index: -1; 
+}
+.pho::before{
     width: 100vw;                  
     height: 100vh;                
     background-image: url('./DSC07458-Edit.jpg');
@@ -20,10 +26,9 @@ body{
     display: block;
     -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
     mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
-    position: fixed;                                     
+    position: absolute;                                     
     z-index: -1; 
     right:0;
-    background-attachment: fixed;
 }                 
 html {
   scroll-behavior: smooth;
