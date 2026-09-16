@@ -17,13 +17,14 @@ body{
   z-index: -1; 
   width: 100vw;                  
     height: 100vh;    
+ 
 }
 .pho::before{
     content: "";
     width: 100vw;                  
-    height: 100vh;                
-    background-image: url('./DSC07458-Edit.jpg');
-    background-size: contain;        
+    height: calc(100vw * 1020 / 680);
+    background-size: 100% auto;              
+    background-image: url('./DSC07458-Edit.jpg');       
     background-position: center top; 
     background-repeat: no-repeat;
     display: block;
