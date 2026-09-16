@@ -73,7 +73,7 @@ html {
 
 #about {
   background-color: #f9f9f9;
-   margin-top: clamp(30px, 10vh, 120px); 
+  transform: translateY(clamp(0px, 200vw, 3000px));
     border-radius:10px;
     padding-right: clamp(15px, 3vw, 30px);
 }
@@ -87,7 +87,7 @@ nav {
 #contact {
   background-color: #f9f9f9;
   border-radius:10px;
-  margin-top: clamp(30px, 10vh, 120px); 
+  transform: translateY(clamp(0px, 200vw, 3000px));
     padding-right: clamp(15px, 3vw, 30px);
 }
 
