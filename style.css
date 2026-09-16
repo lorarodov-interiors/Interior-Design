@@ -21,9 +21,9 @@ body{
 }
 .pho::before{
     content: "";
-    width: 100vw;                  
-    height: calc(100vw * 1020 / 680);
-    background-size: 100% auto;              
+   height: 100vh;
+   width: calc(100vh * 680 / 1020);
+    background-size: 100% 100%;              
     background-image: url('./DSC07458-Edit.jpg');       
     background-position: center top; 
     background-repeat: no-repeat;
