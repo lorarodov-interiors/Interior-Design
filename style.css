@@ -26,22 +26,6 @@ body{
   mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
  
 }
-.pho::before{
-    content: "";
-   height: 100vh;
-   width: calc(100vh * 680 / 1020);
-    background-size: 100% 100%;              
-    background-image: url('./DSC07458-Edit.jpg');       
-    background-position: center top; 
-    background-repeat: no-repeat;
-    display: block;
-    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
-  position: fixed;
-  top: 0;          
-  right: 0;        
-  z-index: -1;
-}                 
 html {
   scroll-behavior: smooth;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
