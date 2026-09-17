@@ -63,7 +63,7 @@ html {
   justify-content: space-between; 
   align-items: center;
   padding: 20px 40px;
-  position: sticky;
+  position: fixed;
   top: 0;
   right: 0;
   z-index: 100;
