@@ -18,13 +18,15 @@ body{
  height: 100vh;
   width: calc(100vh * 680 / 1020);      
     pointer-events: none;
-      background-image: url('./DSC07458-Edit.jpg');       
-  background-position: center top; 
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
   -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
   mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
  
+}
+.pho img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 html {
   scroll-behavior: smooth;
