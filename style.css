@@ -63,13 +63,12 @@ html {
   justify-content: space-between; 
   align-items: center;
   padding: 20px 40px;
-  position: fixed;
+  position: sticky;
   top: 0;
-  right: 0;
   z-index: 100;
-   background-color: #FAFAFA;
-    border-bottom: 0.5px solid rgba(0, 0, 0, 0.08);
-     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02); 
+  background-color: #FAFAFA;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02); 
 }
 
 #about {
